@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" minHeight="388.4999000000025" minWidth="503.9998389648463" prefHeight="600.0" prefWidth="800.0" xmlns:fx="http://javafx.com/fxml" fx:controller="mypublic.LayoutHomeController">
+  <children>
+    <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="300.0" layoutY="225.0" pickOnBounds="true" preserveRatio="true">
+      <image>
+        <Image url="@../../images/homepage.png" preserveRatio="false" smooth="false" />
+      </image>
+    </ImageView>
+    <Button layoutX="424.0" layoutY="329.0" minHeight="243.0" minWidth="288.0" mnemonicParsing="false" prefHeight="243.0" prefWidth="288.0">
+      <graphic>
+        <ImageView>
+          <image>
+            <Image url="@../../images/ok.png" preserveRatio="false" smooth="false" />
+          </image>
+        </ImageView>
+      </graphic>
+    </Button>
+  </children>
+</AnchorPane>
